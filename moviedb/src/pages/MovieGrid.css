@@ -1,0 +1,74 @@
+.container .title {
+  color: #000;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0 1rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-style: bold;
+}
+
+.title .query-text {
+  color: #fff;
+}
+
+.movies-container {
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.movies-container div {
+  width: 30%;
+  color: #000;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.movie-card-container {
+  width: 100%;
+}
+
+.movies-container div img,
+.movies-container div h2,
+.movies-container div p,
+.movies-container .detalhes {
+  margin-bottom: 0.5rem;
+}
+.movies-container div img:hover {
+  filter: grayscale(80%);
+  transition: all 1s ease-in-out;
+}
+
+.movies-container div svg {
+  color: #f7d354;
+}
+
+.movies-container div a {
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+
+.movies-container div a:hover {
+  background-color: transparent;
+  color: #000;
+}
+
+.query-search {
+  color: #808080;
+  font-family: 'IBM Plex Mono';
+}
