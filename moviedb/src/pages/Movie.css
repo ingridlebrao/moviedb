@@ -1,0 +1,39 @@
+.movie-page {
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.movie-page svg {
+  font-size: 1.5rem;
+  color: #f7d354;
+}
+
+.movie-page .movie-card {
+  text-align: center;
+}
+
+.tagline {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.movie-page .movie-card img,
+.movie-page .movie-card h2,
+.movie-page .movie-card p {
+  margin-bottom: 1rem;
+}
+
+.movie-page,
+.info .description {
+  text-align: center;
+}
+
+.movie-page .movie-card img {
+  max-width: 300px;
+  /* margin-top: 1rem; */
+}
