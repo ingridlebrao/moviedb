@@ -8,7 +8,7 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  background-color: #14213d;
+  background-color: #e3e3e3;
   color: #fff;
 }
 
@@ -18,10 +18,6 @@ button {
 
 a {
   text-decoration: none;
-  color: #f4a261;
   transition: all 0.5s ease;
-}
-
-a:hover {
-  color: #e76f51;
+  color: #000;
 }
