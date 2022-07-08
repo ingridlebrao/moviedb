@@ -1,0 +1,55 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+#navbar h2 a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  font-weight: 400;
+  color: #000;
+  transition: 0.5s ease;
+}
+
+#navbar h2 a:hover {
+  color: gray;
+}
+
+.camera {
+  color: #000;
+}
+
+#navbar form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#navbar input {
+  font-family: 'IBM Plex Mono';
+  padding: 0.2rem 0.8rem;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+#navbar form button {
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 0.3rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  transition: 0.4s ease;
+}
+
+#navbar form button:hover {
+  background-color: #000;
+  color: #fff;
+}
